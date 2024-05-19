@@ -1,0 +1,36 @@
+#user-list .ant-input-affix-wrapper {
+  background-color: white;
+  border-radius: 9px;
+}
+#user-list .ant-select {
+  border-radius: 35px;
+  background: #EFF3F9;
+}
+#user-list .ant-select .ant-select-selector {
+  color: #202945;
+}
+#user-list .ant-select .ant-select-selector .ant-select-item-option {
+  color: #202945;
+}
+#user-list .ant-select .ant-select-selector .ant-select-item-option-active {
+  background: #202945;
+  color: white;
+}
+#user-list .edit-button {
+  background-color: #EFF3F9;
+  color: #202945;
+  padding: 0 35px;
+}
+@media only screen and (max-width: 415px) {
+  #user-list > div.d-flex {
+    flex-direction: column;
+  }
+  #user-list > div.d-flex > div.d-flex {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #user-list > div.d-flex > div.d-flex button {
+    border-radius: 5px !important;
+  }
+}

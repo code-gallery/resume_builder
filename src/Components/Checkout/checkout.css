@@ -1,0 +1,54 @@
+#checkout .checkout-section {
+  padding: 1rem 2rem;
+  border-radius: 7px;
+}
+#checkout .checkout-section .section-title {
+  display: flex;
+}
+#checkout .checkout-section a {
+  color: var(--theme-primary-color);
+  text-decoration: underline;
+}
+#checkout .checkout-section a:hover {
+  text-decoration: none;
+}
+#checkout .checkout-section .corner-position {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+}
+#checkout .checkout-section .common-fields input {
+  margin-bottom: 0;
+}
+#checkout .checkout-section .common-fields .country-select {
+  border: solid 1px;
+  border-color: var(--theme-primary-color);
+  border-radius: 8px;
+}
+#checkout .checkout-section .order-review-details .scrollable {
+  height: 350px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#checkout .checkout-section .subtotal-price-details {
+  border-bottom: #ABADC1 1px solid;
+  padding: 0.5rem 0;
+}
+@media screen and (max-width: 415px) {
+  #checkout .checkout-section {
+    padding: 1rem;
+  }
+  #checkout .checkout-section .section-title {
+    flex-direction: column;
+    align-items: start;
+  }
+  #checkout .checkout-section .d-flex.col-12 {
+    flex-direction: column;
+  }
+  #checkout .checkout-order-review .order-review-details .scrollable {
+    max-height: 500px;
+  }
+  #checkout .checkout-order-review .order-review-details .order-items {
+    flex-direction: column;
+  }
+}

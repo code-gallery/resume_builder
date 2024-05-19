@@ -1,0 +1,11 @@
+#inventory-list .product-image img {
+  max-width: 50px;
+}
+#inventory-list .link {
+  text-decoration: underline;
+}
+#inventory-list .link:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #202945 !important;
+}

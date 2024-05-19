@@ -1,0 +1,261 @@
+.right__image {
+  background: url("../images/login-right-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+}
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+  border: none;
+  outline: none;
+}
+:focus {
+  outline: none !important;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none !important;
+}
+a:focus {
+  outline: none !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+.text-underline {
+  text-decoration: underline !important;
+}
+.abs-anch {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: transparent !important;
+  z-index: 0;
+}
+.borderbottom {
+  border-bottom: 1px solid;
+}
+.list-inline li {
+  display: inline-block;
+}
+.pt-120 {
+  padding-top: 120px;
+}
+.pt-110 {
+  padding-top: 110px;
+}
+.pb-120 {
+  padding-bottom: 120px;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.nomargin-top {
+  margin-top: 0 !important;
+}
+.nomargin-bottom {
+  margin-bottom: 0 !important;
+}
+.nomargin-left {
+  margin-left: 0 !important;
+}
+.nomargin-right {
+  margin-right: 0 !important;
+}
+.nopadding-top {
+  padding-top: 0 !important;
+}
+.nopadding-bottom {
+  padding-bottom: 0 !important;
+}
+.nopadding-left {
+  padding-left: 0 !important;
+}
+.nopadding-right {
+  padding-right: 0 !important;
+}
+.display-table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  height: 100%;
+  margin: auto;
+}
+.display-table .display-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.display-table .display-cell.v-top {
+  vertical-align: top;
+}
+.display-table .display-cell.v-bottom {
+  vertical-align: bottom;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+input::-webkit-input-placeholder {
+  font-family: light;
+  color: #000;
+}
+input:-moz-placeholder {
+  font-family: light;
+  color: #000;
+}
+input::-moz-placeholder {
+  font-family: light;
+  color: #000;
+}
+input:-ms-input-placeholder {
+  font-family: light;
+  color: #000;
+}
+textarea::-webkit-input-placeholder {
+  font-family: light;
+  color: #000;
+}
+textarea:-moz-placeholder {
+  font-family: light;
+  color: #000;
+}
+textarea::-moz-placeholder {
+  font-family: light;
+  color: #000;
+}
+textarea:-ms-input-placeholder {
+  font-family: light;
+  color: #000;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+.footer ul li:not(:last-child):after {
+  content: "";
+  background: #ABADC1;
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  border-radius: 100%;
+  margin: 0px 0 0 15px;
+  position: relative;
+  top: -2px;
+}
+.login-container .left-login-form-logo {
+  display: flex;
+  flex-direction: column;
+}
+.login-container .logo_dkm {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.login-container .logo_dkm img {
+  width: 200px;
+}
+.login-container .deek_logo {
+  box-sizing: border-box;
+}
+.login-container .deek_logo img {
+  width: 160px;
+  margin-bottom: 20px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin-top: -80px;
+  width: 440px;
+}
+span.eye-icon {
+  position: absolute;
+  right: 15px;
+  top: 26px;
+}
+@media (max-width: 835px) {
+  #root .login-container .ant-radio-group {
+    margin-left: 0 !important;
+  }
+  #root .login-container .footer {
+    width: 100%;
+    margin-left: -3rem;
+  }
+  #root .login-container .footer .list-inline {
+    text-align: center;
+  }
+  #root .login-container .footer .list-inline li {
+    display: block;
+    margin-right: 0;
+  }
+  #root .login-container .footer .list-inline li:after {
+    content: unset;
+  }
+}
+@media (max-width: 759px) {
+  #root .login-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  #root .login-container .left-login-form-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100% !important;
+    position: unset !important;
+  }
+  #root .login-container .left-login-form-logo .logo {
+    max-height: 100%;
+  }
+  #root .login-container .left-login-form-logo .footer {
+    position: unset;
+    margin-left: 0;
+  }
+  #root .login-container .pt-110 {
+    padding-top: 75px;
+  }
+  #root .login-container .pl-5 {
+    padding-left: 0 !important;
+  }
+  #root .login-container .right-image {
+    display: none;
+  }
+}

@@ -1,0 +1,204 @@
+.products-module_category-list {
+  .search-div.search-div-i.search-div-h.search-div-product input[type="search"] {
+    width: 480px;
+  }
+  .search-div.search-div-i.search-div-h.search-div-product input[type="submit"] {
+    position: absolute;
+    left: 445px;
+    background: url(../../../assets/images/blue-search.svg);
+    width: 30px;
+    height: 20px;
+    background-repeat: no-repeat !important;
+    top: 8px;
+    color: transparent;
+  }
+  .search-div.search-div-i.search-div-h.search-div-product {
+    width: 64%;
+  }
+  
+  .align-contentt {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    // width: 80vw;
+    // position: relative;
+    // display: flex;
+    // overflow-x: scroll;
+    // max-width: 100%;
+  }
+
+  .arrow {
+    font-size: 26px;
+    cursor: pointer;
+  }
+
+  .align-contentt.align-contentt_product {
+    // border-bottom: 1px solid #DBE3EF;
+    // padding-bottom: 30px;
+  }
+
+  .white_block {
+    // width: 395px;
+    padding: 0 70px;
+    height: 280px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // text-align: center;
+    flex-direction: column;
+    // max-width: 100%;
+    // flex: 1 1 23%;
+    margin: 1.5%;
+  }
+
+  // .white_block.fit_pic {
+  //   height: 350px;
+	//   align-items: inherit!important;
+  //   text-align: left!important;
+  // }
+  .popular-products {
+    // max-width: 350px;
+    flex-wrap: wrap;
+    width: 90%;
+    align-self: center;
+    margin-left: 20px;
+    
+    .product {
+      flex: 1 1 23%;
+      max-width: 23%;
+      margin-left: 0;
+      margin-right: 2%;
+    }
+  }
+
+  .white_blocked_click {
+    width: 212px;
+    height: 160px;
+    background: #fff;
+    border-radius: 15px;
+    position: absolute;
+    right: 10px;
+    top: 7%;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .white_block.fit_pic.white_block_new_small {
+    height: auto;
+    align-items: inherit!important;
+    text-align: left!important;
+  }
+
+  // .white_block {
+  //   flex: 1 1 100%;
+  // }
+
+  .images_middles.images_middles_products img{
+    width: 175px;
+    border-radius: 50%;
+  }
+
+  .images_middles.images_middles_products.fit_pic  img {
+    width: 100%;
+    height: 270px;
+  }
+  .images_middles.images_middles_products.fit_pic  {
+    width: 100%;
+    height: 100%
+  }
+
+  .icons_middles_small {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  .font-18.pop-medium.images_middles_text {
+    margin-top: 20px;
+  }
+
+  .page_two_titles {
+    border-top: 1px solid #DBE3EF;
+    padding-top: 40px;
+    margin-left: 20px;
+  }
+
+  .images_middles.images_middles_products.fit_pic  img {
+    width: 100%;
+    height: 270px;
+  }
+  .images_middles.images_middles_products.fit_pic  {
+    width: 100%;
+    height: 100%
+  }
+
+  // .images_middles.images_middles_products.fit_pic.images_middles_new_small img {
+  //   width: 160px;
+  //   height: 120px;
+  // }
+
+  .horizontal-menu {
+    margin-left: -4%;
+
+    .scroll-menu-arrow {
+      margin: 1.5%;
+    }
+  }
+
+  @media(max-width: 1025px){
+    .font-18.pop-medium.images_middles_text {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .search-div.search-div-i.search-div-h.search-div-product input[type="search"] {
+      width: 320px;
+    }
+    .search-div.search-div-i.search-div-h.search-div-product input[type="submit"] {
+      left: 290px;
+    }
+    .search-div input[type="search"] {
+      padding-left: 10px;
+    }
+    .horizontal-menu {
+      margin-left: -2%;
+    }
+  }
+  @media (max-width: 840px) {
+  }
+  @media (max-width: 767px) {
+    .search-div.search-div-i.search-div-h.search-div-product {
+      width: 100%;
+    }
+    .search-div.search-div-i.search-div-h.search-div-product input[type="search"] {
+      width: 100%;
+    }
+    .search-div.search-div-i.search-div-h.search-div-product input[type="submit"] {
+      left: 90%;
+    }
+    .search-div input[type="search"] {
+      padding-left: 10px;
+    }
+    .white_block {
+      padding: 0 50px;
+      height: 240px;
+
+      .images_middles.images_middles_products img{
+        width: 145px;
+      }
+    }
+    .popular-products {
+      flex-direction: column;
+      width: 90%;
+      align-items: center;
+      
+      .product {
+        margin: 2% 0;
+        max-width: unset;
+      }
+    }
+  }
+}

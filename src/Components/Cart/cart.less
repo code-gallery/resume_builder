@@ -1,0 +1,76 @@
+#cart { 
+  .ant-table-thead tr, .ant-table-row {
+    border-bottom: 1px solid #ABADC1;
+  }
+
+  .company-table {
+    tr {
+      th, td {
+        background: inherit;
+        color: #202945;
+        border-bottom: 1px solid #ABADC1;
+      }
+    }
+
+    .product-image {
+      text-align: center;
+
+      img {
+        max-width: 100px;
+      }
+    }
+
+    .quantity {
+      min-width: 5rem;
+      border: solid 1px;
+      border-color: var(--theme-primary-color);
+      padding: 0.25rem;
+      border-radius: 4px;
+      margin-bottom: 0.25rem;
+      text-align: center;
+
+      button {
+        border: none;
+        background: transparent;
+      }
+    }
+  }
+  
+  .border_bott{
+    border-bottom: 1px solid #ABADC1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .text_underline{
+    text-decoration:underline;
+  }
+  input {
+    background-color: #fff;
+    border-radius: 4px;
+    height: 50px;
+  }
+  .subtotal-price-details {
+    color: #343E43;
+    border-bottom: #ABADC1 1px solid;
+    padding: 5% 0;
+  }
+  .total-price-details {
+    color: #343E43;
+    border-bottom: #ABADC1 1px solid;
+    padding: 5% 0;
+  }
+
+  @media only screen and (max-width: 415px) {
+    .justify-content-end {
+      justify-content: center !important;
+      
+      &> div {
+        width: 100%;
+      }
+      .promotion > * {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+    }
+  }
+}

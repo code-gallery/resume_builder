@@ -1,0 +1,17 @@
+#return-order-details .link {
+  text-decoration: underline;
+}
+#return-order-details .link:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #202945 !important;
+}
+#return-order-details input {
+  width: 5rem;
+  background-color: #DBE3EF;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}

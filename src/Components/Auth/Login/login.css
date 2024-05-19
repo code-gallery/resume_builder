@@ -1,0 +1,80 @@
+.login-form .orange {
+  color: var(--theme-primary-color);
+}
+.login-form .orange-bg {
+  background-color: var(--theme-primary-color);
+}
+.login-form .orange-bg:hover {
+  background-color: var(--theme-primary-color);
+}
+.login-form .blue-bg {
+  background: #202945;
+}
+.login-form .ant-form-item-control-input-content > * {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+.login-form .ant-form-item-control-input-content > *:focus {
+  box-shadow: none;
+}
+.login-form .ant-input-password.ant-input-affix-wrapper-focused {
+  box-shadow: none;
+}
+.login-form .secd_text {
+  padding-bottom: 10px;
+}
+.login-form label.login_radio {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.login-form label.input_text {
+  display: block!important;
+  margin-top: 30px;
+}
+.login-form input#line0 {
+  display: block!important;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-top: 9px;
+  width: 60%;
+  position: relative;
+}
+.login-form .font-12.pop-medium.lblue.forgett {
+  float: right;
+  width: 53%;
+}
+.login-form input.white.curved-btn.login_radioooo.orange-bg {
+  background: #C30025;
+  margin-top: 50px;
+  width: 220px;
+}
+.login-form .grey_footer.grey_footer_two.grey_footer_three {
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  padding-left: 100px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  padding-right: 50px;
+}
+.login-form .mt-2.position-relative.responsivess.email_23.email_24 {
+  margin-top: 20px!important;
+  margin-bottom: 0!important;
+}
+@media (max-width: 835px) {
+  .login-form {
+    width: 310px;
+  }
+}
+@media (max-width: 759px) {
+  .login-form {
+    margin-top: 0;
+  }
+  .login-form .login-fields {
+    text-align: left;
+  }
+}

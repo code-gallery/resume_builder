@@ -1,0 +1,11 @@
+#order-history .link {
+  text-decoration: underline;
+}
+#order-history .link:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #202945 !important;
+}
+#order-history .icon {
+  margin-right: 0.5rem;
+}

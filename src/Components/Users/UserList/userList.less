@@ -1,0 +1,48 @@
+#user-list {
+  .ant-input-affix-wrapper {
+    background-color: white;
+    border-radius: 9px;
+  }
+
+  .ant-select{
+    border-radius: 35px;
+    background: #EFF3F9;
+    
+    .ant-select-selector{
+      color: #202945;
+      // color: white;
+      
+      .ant-select-item-option{
+        // color: white;
+        color: #202945;
+      }
+      .ant-select-item-option-active{
+        background: #202945;
+        color: white;
+      }
+    }
+  }
+
+  .edit-button {
+    background-color: #EFF3F9;
+    color: #202945;
+    padding: 0 35px;
+  }
+
+  @media only screen and (max-width: 415px) {
+    
+    &>div.d-flex {
+      flex-direction: column;
+      
+      &>div.d-flex {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+        button {
+          border-radius: 5px !important;
+        }
+      }
+    }
+  }
+}

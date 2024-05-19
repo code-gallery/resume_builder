@@ -1,0 +1,10 @@
+#contact .sub-heading {
+  padding: 0.5rem 0;
+  border-bottom: solid 1px #ddd;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+#contact input,
+#contact textarea {
+  border: none;
+}

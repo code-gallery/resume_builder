@@ -1,0 +1,28 @@
+.product {
+  max-width: 300px;
+  background: #fff;
+  position: relative;
+  margin: 1%;
+}
+.product .product-image-container {
+  width: 100%;
+}
+.product .product-image-container img {
+  width: 100%;
+}
+.product .text_pic_top {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.product .text_pic_top_two {
+  padding-left: 20px;
+}
+.product .text_top_right {
+  width: 35%;
+}
+.product .discount_off {
+  width: 75%;
+  background: rgba(252, 69, 19, 0.1);
+  color: #FC4513;
+  text-align: center;
+}
